@@ -26,40 +26,34 @@ Este proyecto implementa un sistema experto en Python para evaluar el estado de 
 
 1. **Clonar el Repositorio**  
    Clona el repositorio desde GitHub:
-   ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   `git clone https://github.com/tu_usuario/tu_repositorio.git`
+   `cd tu_repositorio`
 2. **Instalar Dependencias**  
   Instala la librería fpdf:
-   ```bash
-   pip install fpdf
+   `pip install fpdf`
 
 4. **Crear la Base de Datos**
   Ejecuta el script para crear la base de datos:  
-   ```bash
-   python crear_base_datos.py
+   `python crear_base_datos.py`
   
 
 ## Uso
 
   1.**Ejecutar el Sistema Experto**
   Inicia la evaluación ejecutando el archivo principal:
-    ```bash
-  python SE_Gabinetes.py
+  `python SE_Gabinetes.py`
 
 2.**Responde las Preguntas**
   El sistema hará preguntas relacionadas con el estado del gabinete. Responde con Sí o No.
 
 3.**Generar Reporte en PDF**
 Una vez completada la evaluación, se generará un archivo PDF con el reporte en el directorio actual. El nombre del archivo será algo como:
-        ```bash
-        reporte_gabinete_añoMesDia_hrminSeg
+        `reporte_gabinete_añoMesDia_hrminSeg`
 
 
 ##  Personalización
 Puedes personalizar las preguntas, reglas, categorías y descripciones modificando el script 
-        ```bash
-        crear_base_datos.py.
+        `crear_base_datos.py.`
 
 ## Contribuciones
 ¡Se aceptan contribuciones! Si encuentras errores o tienes ideas para mejorar el sistema, crea un issue o envía un pull request.
