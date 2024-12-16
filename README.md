@@ -26,7 +26,7 @@ Este proyecto implementa un sistema experto en Python para evaluar el estado de 
 
 1. **Clonar el Repositorio**  
    Clona el repositorio desde GitHub:
-   `git clone https://github.com/tu_usuario/tu_repositorio.git`
+   `git clone https://github.com/CChavez27/SE_P3_Proyecto`
    `cd tu_repositorio`
 2. **Instalar Dependencias**  
   Instala la librería fpdf:
